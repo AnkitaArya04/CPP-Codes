@@ -12,7 +12,7 @@ int main(){
     {
         int bit=n & 1;                      // Get the last bit of n
         ans=(bit*pow(10,i)) + ans;       // Convert to decimal-like binary number
-        n=n>>1;                           // Right shift n by 1 (equivalent to n / 2)
+        n=n >> 1;                           // Right shift n by 1 (equivalent to n / 2)
         i++;
     }
     cout << "Answer is : " << ans << endl;
