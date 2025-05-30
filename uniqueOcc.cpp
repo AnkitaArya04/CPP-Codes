@@ -43,7 +43,7 @@ int main() {
 
     bool result = sol.uniqueOccurrences(arr);
 
-    cout << "Unique Occurrences: " << (result ? "true" : "false") << endl;
+    cout << "Occurrences: " << (result ? "true" : "false") << endl;
 
     return 0;
 }
